@@ -7,6 +7,7 @@ class Header extends Component {
             <div className="myHeader">
                 <div className="headItem"><Link to="/about-us">About Us</Link></div>
                 <div className="headItem"><Link to="/my-profile">My Profile</Link></div>
+                <div className="headItem"><Link to="/products">Products</Link></div>
                 <div className="headItem"><Link to="/">Home</Link></div>
             </div>
         );
