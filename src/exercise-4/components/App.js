@@ -12,9 +12,9 @@ class App extends Component {
       <div className="app">
         <Router>
             <Route component={NotMatch} />
-            <Route path='/' component={Home} />
-            <Route path='/:user' component={User} />
-            <Route path='/about' component={About} />
+            <Route exact path='/' component={Home} />
+            <Route exact path='/:user' component={User} />
+            <Route exact path='/about' component={About} />
         </Router>
       </div>
     );
