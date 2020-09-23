@@ -21,6 +21,8 @@ class App extends Component {
             <Route exact path="/products/:id" component={ProductDetails} />
             <Route exact path="/my-profile" component={MyProfile} />
             <Route exact path="/about-us" component={AboutMe} />
+            <Route exact path="/goods" component={Products} />
+            <Route component={Home} />
           </Switch>
         </div>
       </BrowserRouter>
